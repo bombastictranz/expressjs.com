@@ -88,7 +88,7 @@ Predtým, ako sa hlbšie pustíme do týchto tém, mali by ste mať základné z
 
 Pre viac informácií ohľadom základov error handlingu sa pozrite na:
 
-* [Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors)
+* [Error Handling in Node.js](https://www.tritondatacenter.com/node-js/production/design/errors)
 * [Building Robust Node Applications: Error Handling](https://strongloop.com/strongblog/robust-node-applications-error-handling/) (StrongLoop blog)
 
 #### Čo nerobiť
@@ -439,7 +439,7 @@ Bez ohľadu na to, ako je optimalizovaná aplikácia, jedna inštancia môže sp
 
 Load balancer je zvyčajne reverzné proxy, ktoré organizuje prevádzku medzi viacerými inštanciami aplikácie a serverov. Load balancer môžete pre vašu aplikáciu setupnúť jednoducho použítím [Nginx](http://nginx.org/en/docs/http/load_balancing.html), alebo [HAProxy](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts).
 
-Load balancer zabezpečí správne spárovanie requestov súvisiacich s konkrétnym session ID a procesom, ktorý túto session spravuje. Tento prístup sa nazýva _session affinity_, alebo _sticky sessions_ a môže byť riešený návrhom popísaným vyššie, teda použitím dátového úložiska ako je Redis (v závislosti od aplikácie). Prečítajte si nasledujúcu diskusiu [Using multiple nodes](https://socket.io/docs/using-multiple-nodes).
+Load balancer zabezpečí správne spárovanie requestov súvisiacich s konkrétnym session ID a procesom, ktorý túto session spravuje. Tento prístup sa nazýva _session affinity_, alebo _sticky sessions_ a môže byť riešený návrhom popísaným vyššie, teda použitím dátového úložiska ako je Redis (v závislosti od aplikácie). Prečítajte si nasledujúcu diskusiu [Using multiple nodes](https://socket.io/docs/v4/using-multiple-nodes/).
 
 #### Použitie StrongLoop PM spolu s Nginx load balancerom
 

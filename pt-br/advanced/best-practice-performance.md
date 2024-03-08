@@ -122,9 +122,8 @@ convenção de retorno de chamada erros-first para tratar o erro de forma signif
 
 Para obter mais informações sobre os fundamentos de manipulação de erros, consulte:
 
-* [Manipulação de Erros no Node.js](https://www.joyent.com/developers/node/design/errors)
-* [Construindo
-Aplicativos Node Robustos: Manipulação de Erros](https://strongloop.com/strongblog/robust-node-applications-error-handling/) (blog do StrongLoop)
+* [Manipulação de Erros no Node.js](https://www.tritondatacenter.com/node-js/production/design/errors)
+* [Construindo Aplicativos Node Robustos: Manipulação de Erros](https://strongloop.com/strongblog/robust-node-applications-error-handling/) (blog do StrongLoop)
 
 #### O que não fazer
 
@@ -626,8 +625,7 @@ conectam ao processo que as originou. Isto é conhecido como
 pegajosas*, e podem ser endereçadas pela sugestão acima para
 usar um armazenamento de dados como o Redis para os dados da sessão
 (dependendo do seu aplicativo). Para uma discussão, consulte por
-[Usando
-múltiplos nós](https://socket.io/docs/using-multiple-nodes).
+[Usando múltiplos nós](https://socket.io/docs/v4/using-multiple-nodes/).
 
 #### Usando o StrongLoop PM com um balanceador de carga Nginx
 

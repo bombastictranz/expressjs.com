@@ -91,7 +91,7 @@ Node 앱은 처리되지 않은 예외가 발생할 때 충돌이 발생합니�
 
 오류 처리의 기본사항 대한 자세한 내용은 다음을 참조하십시오.
 
-* [Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors)
+* [Error Handling in Node.js](https://www.tritondatacenter.com/node-js/production/design/errors)
 * [Building Robust Node Applications: Error Handling](https://strongloop.com/strongblog/robust-node-applications-error-handling/)(StrongLoop 블로그)
 
 #### 수행하지 않아야 하는 항목
@@ -473,7 +473,7 @@ PM2의 클러스터링에 관한 추가 정보는 PM2 문서의 [Cluster Mode](h
 
 로드 밸런서는 일반적으로 여러 애플리케이션 인스턴스 및 서버에 대한 트래픽을 오케스트레이션하는 역방향 프록시입니다. [Nginx](http://nginx.org/en/docs/http/load_balancing.html) 또는 [HAProxy](https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts)를 이용하면 앱에 대한 로드 밸런서를 쉽게 설정할 수 있습니다.
 
-로드 밸런싱을 이용하는 경우, 특정한 세션 ID와 연관된 요청이 해당 요청을 발생시킨 프로세스에 연결되도록 해야 할 수도 있습니다. 이러한 경우는 *세션 선호도(session affinity)* 또는 *스티키 세션(sticky session)*으로 알려져 있으며, 세션 데이터를 위해 Redis와 같은 데이터 저장소를 사용하는 위의 제안을 통해 처리할 수도 있습니다(애플리케이션에 따라 다름). 토론을 위해서는 [Using multiple nodes](https://socket.io/docs/using-multiple-nodes)를 참조하십시오.
+로드 밸런싱을 이용하는 경우, 특정한 세션 ID와 연관된 요청이 해당 요청을 발생시킨 프로세스에 연결되도록 해야 할 수도 있습니다. 이러한 경우는 *세션 선호도(session affinity)* 또는 *스티키 세션(sticky session)*으로 알려져 있으며, 세션 데이터를 위해 Redis와 같은 데이터 저장소를 사용하는 위의 제안을 통해 처리할 수도 있습니다(애플리케이션에 따라 다름). 토론을 위해서는 [Using multiple nodes](https://socket.io/docs/v4/using-multiple-nodes/)를 참조하십시오.
 
 #### Nginx 로드 밸런서와 함께 StrongLoop PM 사용
 
